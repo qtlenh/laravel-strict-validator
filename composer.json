@@ -1,0 +1,24 @@
+{
+    "name": "qtlenh/laravel-strict-validator",
+    "description": "Add type constraints and coerce input types during validation",
+    "autoload": {
+        "psr-4": {
+            "Qtlenh\\LaravelStrictValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lenh Quach",
+            "email": "qtlenh@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qtlenh\\LaravelStrictValidator\\Providers\\StrictValidatorProvider"
+            ]
+        }
+    },
+    "require": {}
+}
